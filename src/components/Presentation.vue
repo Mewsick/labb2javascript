@@ -8,7 +8,7 @@
             <option :value="false">Sverige</option>
         </select>
         <ul>
-            
+
             <div v-if="showGlobal">
                 <h2>Globalt</h2>
                 <li> Antal Nya Fall: {{ apiData.Global.NewConfirmed }} </li>
@@ -56,7 +56,6 @@ export default {
             .then(response => response.json())
             .then(result => {
                 this.apiData = result
-                this.newConfirmed = this.apiData.Global.NewConfirmed
             })    
         },
     },
