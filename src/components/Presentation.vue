@@ -14,7 +14,7 @@
                 <li> Antal Nya Fall: {{ apiData.Global.NewConfirmed }} </li>
                 <li> Totalt Antal Fall: {{ apiData.Global.TotalConfirmed }} </li>
                 <li> Antal Nya Döda: {{ apiData.Global.NewDeaths }} </li>
-                <li> Totalt AntalDeaths: {{ apiData.Global.TotalDeaths }} </li>
+                <li> Totalt Antal Döda: {{ apiData.Global.TotalDeaths }} </li>
                 <li> Antal Nya Tillfrisknade: {{ apiData.Global.NewRecovered }} </li>
                 <li> Totalt Antal Tillfrisknade: {{ apiData.Global.TotalRecovered }} </li>
             </div>
