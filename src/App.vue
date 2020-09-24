@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <router-link to="/HelloWorld">Startsida</router-link><br>
+    <Header text="Välj rubrik för bild eller statistik">></Header>
+    <router-link to="/HelloWorld">Bild på coronaviruset</router-link><br>
     <router-link to="/Presentation">Statistik</router-link>
     <router-view />
   </div>
 </template>
 
 <script>
+import Header from './components/Header.vue'
 
 export default {
   name: 'App',
   components: {
-    
-  }
+    Header
+  },
 }
 </script>
 
